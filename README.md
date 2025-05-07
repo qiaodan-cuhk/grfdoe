@@ -2,7 +2,13 @@
 本项目用于GPT-MEDOE的2024 Sep-Oct早期合并Eureka框架使用，已不再更新
 
 相关repo
-前置项目: doe_epymarl, 基于epymarl框架集成medoe相关功能，实现doe_a2c_learner
+前置项目: 
+- Medoe_epymarl, 第一版基于epymarl框架集成medoe
+- doe_epymarl, 基于epymarl框架集成medoe相关功能，实现doe_a2c_learner，基本用于后续训练
+- football-MARL-subtask, zihao开发的基于Eureka框架GRF任务分解流程，未集成medoe
+后续项目:
+- GRF_SUBTASK, 完整的Eureka+medoe
+
 
 # History
 gfootball.GPT_subtask_generator.subtask_generator.generator_one_level为单层分解
